@@ -167,6 +167,11 @@ address {
 
 < !--sec2-->
 
+.about {
+    padding: 120px 0;
+    width: 100%;
+    text-align: center;
+}
 .about-container {
     display: inline-flex;
     padding: 120px 0;
@@ -215,6 +220,8 @@ address {
 
 .team {
     padding: 120px 0;
+    width: 100%;
+    text-align: center;
     background-color: #f4f4fd;
 }
 
@@ -233,7 +240,6 @@ address {
 }
 
 .title-sections-team {
-    padding-top: 120px;
     margin-bottom: 72px;
     font-size: 36px;
     line-height: 1.11;
@@ -269,9 +275,14 @@ address {
 
 <!--sec4-->
 
+.portf {
+    padding: 120px 0;
+    width: 100%;
+    text-align: center;
+}
+
 .portf-container {
     max-width: 1158px;
-    padding: 120px 0;
 }
 
 .list-portf {
@@ -317,10 +328,10 @@ address {
 .page-footer {
     background-color: #2e2f42;
     width: 100%;
-    padding: 100px 0;
 }
 
 .footer-container {
+    padding: 100px 0;
     display: block;
 }
 
