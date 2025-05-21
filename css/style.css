@@ -176,7 +176,6 @@ address {
     padding: 120px 0;
     width: 100%;
     height: 600px;
-    text-align: center;
 }
 
 .visually-hidden {
@@ -194,9 +193,13 @@ address {
 
 .list-about {
     display: flex;
-    width: cals (100%-72px)/4;
     gap: 24px;
+    width: cals (100%-72px)/4;
     }
+    
+.item-list-about {
+    width: cals (100%-72px)/4;
+}
 
 .title-list {
     padding-top: 120px;
@@ -208,7 +211,7 @@ address {
     color: #2e2f42;
 }
 
-.item-list {
+.text-item-list {
     gap: 24px;
     padding-bottom: 120px;
     font-weight: 400;
