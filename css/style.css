@@ -194,7 +194,6 @@ address {
 .list-about {
     display: flex;
     gap: 24px;
-    width: cals (100%-72px)/4;
     }
     
 .item-list-about {
@@ -224,7 +223,6 @@ address {
 < !--sec3-->
 
 .team {
-    padding: 120px 0;
     width: 100%;
     height: 600px;
     text-align: center;
@@ -232,6 +230,7 @@ address {
 }
 
 .team-container {
+    padding: 120px 0;
     text-align: center;
 }
 
@@ -282,7 +281,6 @@ address {
 <!--sec4-->
 
 .portf {
-    padding: 120px 0;
     width: 100%;
     text-align: center;
     height: 600px;
@@ -290,6 +288,7 @@ address {
 }
 
 .portf-container {
+    padding: 120px 0;
     max-width: 1158px;
 }
 
@@ -337,11 +336,12 @@ address {
 .page-footer {
     background-color: #2e2f42;
     width: 100%;
-    padding: 100px 0;
 }
 
 .footer-container {
+    padding: 100px 0;
     display: block;
+    align-items: center;
 }
 
 .footer-logo {
