@@ -282,6 +282,7 @@ address {
 <!--sec4-->
 
 .portf {
+    padding: 120px 0;
     width: 100%;
     text-align: center;
     height: 600px;
@@ -289,7 +290,6 @@ address {
 }
 
 .portf-container {
-    padding: 120px 0;
     max-width: 1158px;
 }
 
@@ -338,12 +338,12 @@ address {
 <!--footer-->
 
 .page-footer {
+    padding: 100px 0;
     background-color: #2e2f42;
     width: 100%;
 }
 
 .footer-container {
-    padding: 100px 0;
     display: block;
     align-items: center;
 }
