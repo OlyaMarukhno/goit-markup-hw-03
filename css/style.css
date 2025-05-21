@@ -131,12 +131,10 @@ address {
 }
 
 .titel-hero {
-    width: 496px;
+    max-width: 496px;
     height: 120px;
-    padding-top: 188px;
-    padding-bottom: 48px;
+    padding: 188px 0;
     margin: 0 auto;
-    margin-bottom: 48px;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -146,9 +144,12 @@ address {
 }
 
 .button-hero {
-    margin-top: 48px;
+    border-radius: 4px;
+    border: none;
+    display: block;
+    margin: 0 auto;
     text-align: center;
-    width: 169px;
+    min-width: 169px;
     height: 56px;
     font-weight: 500;
     font-size: 16px;
@@ -168,20 +169,31 @@ address {
 
 .about-container {
     display: inline-flex;
+    padding: 120px 0;
 }
 
-.titel-section-about {
-    display: none;
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;     
 }
 
 .list-about {
-    display: inline-flex;
-    width: cals (100%-72px)/4;
-}
+    display: flex;
+    gap: 24px;
+    }
 
 .title-list {
+    width: cals (100%-72px)/4;
     padding-top: 120px;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -202,10 +214,11 @@ address {
 < !--sec3-->
 
 .team {
-    background-color: #F4F4FD;
+    background-color: #f4f4fd;
 }
 
 .team-container {
+    padding: 120px 0;
     text-align: center;
 }
 
@@ -216,12 +229,12 @@ address {
 }
 
 .item-list-team {
-    border: 0px solid
+    border-radius: 0px 0px 4px 4px;
 }
 
 .title-sections-team {
     padding-top: 120px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -230,7 +243,7 @@ address {
 }
 
 .list-team {
-    display: inline-flex;
+    display: flex;
     width: cals (100%-72px)/4;
     gap: 24px;
     padding-bottom: 120px;
@@ -238,7 +251,7 @@ address {
 
 .title-list-team {
     padding-top: 32px;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -259,11 +272,11 @@ address {
 
 .portf-container {
     max-width: 1158px;
-    padding-bottom: 72px;
+    padding: 120px 0;
 }
 
 .list-portf {
-    display: inline-flex;
+    display: flex;
     flex-wrap: wrap;
     gap: 24px;
     width: cals (100%-72px)/3;
@@ -281,7 +294,7 @@ address {
 
 .titel-sections-portf {
     padding-top: 120px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -292,21 +305,28 @@ address {
 }
 
 .titel-list-portf {
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
+
 <!--footer-->
+
 .page-footer {
     background-color: #2e2f42;
     width: 100%;
 }
 
 .footer-container {
-    display: block;
+    display: inline-block;
     padding: 100px 0;
+}
+
+.footer-logo {
+margin-bottom: 16px;
 }
 
 .text-footer {
