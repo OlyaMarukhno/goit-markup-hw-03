@@ -22,6 +22,8 @@ ul, ol {
 
 img {
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 a {
@@ -114,11 +116,27 @@ address {
     color: #434455;
 }
 
+< !--sec1-->
+
+.hero-container {
+    display: block;
+    align-items: center;
+}
+
 .page-hero {
+    width: 100%;
+    height: 600px;
     background-color: #2e2f42;
+    text-align: center;
 }
 
 .titel-hero {
+    width: 496px;
+    height: 120px;
+    padding-top: 188px;
+    padding-bottom: 48px;
+    margin: 0 auto;
+    margin-bottom: 48px;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -128,6 +146,10 @@ address {
 }
 
 .button-hero {
+    margin-top: 48px;
+    text-align: center;
+    width: 169px;
+    height: 56px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -142,7 +164,24 @@ address {
     background-color: #404bbf;
 }
 
+< !--sec2-->
+
+.about-container {
+    display: inline-flex;
+}
+
+.titel-section-about {
+    display: none;
+}
+
+.list-about {
+    display: inline-flex;
+    width: cals (100%-72px)/4;
+}
+
 .title-list {
+    padding-top: 120px;
+    padding-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -151,6 +190,8 @@ address {
 }
 
 .item-list {
+    gap: 24px;
+    padding-bottom: 120px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -158,24 +199,46 @@ address {
     color: #434455;
 }
 
+< !--sec3-->
+
 .team {
     background-color: #F4F4FD;
 }
 
+.team-container {
+    text-align: center;
+}
+
+.team-personal {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    background-color: #fff
+}
+
 .item-list-team {
-    background-color: #FFFFFF;
+    border: 0px solid
 }
 
 .title-sections-team {
+    padding-top: 120px;
+    padding-bottom: 72px;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
 }
 
+.list-team {
+    display: inline-flex;
+    width: cals (100%-72px)/4;
+    gap: 24px;
+    padding-bottom: 120px;
+}
+
 .title-list-team {
+    padding-top: 32px;
+    padding-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -184,6 +247,7 @@ address {
 }
 
 .text-item-team {
+    padding-bottom: 32px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -191,7 +255,33 @@ address {
     color: #434455;
 }
 
+<!--sec4-->
+
+.portf-container {
+    max-width: 1158px;
+    padding-bottom: 72px;
+}
+
+.list-portf {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    width: cals (100%-72px)/3;
+    padding-bottom: 48px;
+}
+
+.servis-portf {
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
+    width: 360px;
+    height: 120px;
+    padding: 32px 16px;
+}
+
 .titel-sections-portf {
+    padding-top: 120px;
+    padding-bottom: 72px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -208,13 +298,21 @@ address {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-
+<!--footer-->
 .page-footer {
     background-color: #2e2f42;
+    width: 100%;
+}
+
+.footer-container {
+    display: block;
+    padding: 100px 0;
 }
 
 .text-footer {
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #F4F4FD;
+    width: 264px;
+    padding-top: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
 }
