@@ -331,10 +331,11 @@ address {
 .page-footer {
     background-color: #2e2f42;
     width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .footer-container {
-    padding: 100px 0;
     display: block;
 }
 
