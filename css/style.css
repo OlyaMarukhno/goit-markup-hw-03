@@ -214,11 +214,11 @@ address {
 < !--sec3-->
 
 .team {
+    padding: 120px 0;
     background-color: #f4f4fd;
 }
 
 .team-container {
-    padding: 120px 0;
     text-align: center;
 }
 
@@ -317,15 +317,16 @@ address {
 .page-footer {
     background-color: #2e2f42;
     width: 100%;
-}
-
-.footer-container {
-    display: inline-block;
     padding: 100px 0;
 }
 
+.footer-container {
+    display: block;
+}
+
 .footer-logo {
-margin-bottom: 16px;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .text-footer {
