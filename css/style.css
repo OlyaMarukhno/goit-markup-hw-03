@@ -167,14 +167,16 @@ address {
 
 < !--sec2-->
 
-.about {
-    padding: 120px 0;
-    width: 100%;
-    text-align: center;
-}
 .about-container {
     display: inline-flex;
     padding: 120px 0;
+}
+
+.about {
+    padding: 120px 0;
+    width: 100%;
+    height: 600px;
+    text-align: center;
 }
 
 .visually-hidden {
@@ -192,11 +194,11 @@ address {
 
 .list-about {
     display: flex;
+    width: cals (100%-72px)/4;
     gap: 24px;
     }
 
 .title-list {
-    width: cals (100%-72px)/4;
     padding-top: 120px;
     margin-bottom: 8px;
     font-weight: 500;
@@ -288,7 +290,8 @@ address {
 .list-portf {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    column-gap: 24px;
+    row-gap: 48px;
     width: cals (100%-72px)/3;
     padding-bottom: 48px;
 }
