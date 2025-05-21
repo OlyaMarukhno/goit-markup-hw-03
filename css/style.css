@@ -242,6 +242,7 @@ address {
 
 .item-list-team {
     border-radius: 0px 0px 4px 4px;
+    width: cals (100%-72px)/4;
 }
 
 .title-sections-team {
@@ -255,7 +256,6 @@ address {
 
 .list-team {
     display: flex;
-    width: cals (100%-72px)/4;
     gap: 24px;
     padding-bottom: 120px;
 }
@@ -292,12 +292,15 @@ address {
     max-width: 1158px;
 }
 
+.item-portf {
+    width: cals (100%-72px)/3;
+}
+
 .list-portf {
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    width: cals (100%-72px)/3;
     padding-bottom: 48px;
 }
 
