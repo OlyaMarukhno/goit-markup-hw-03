@@ -197,7 +197,7 @@ address {
     }
     
 .item-list-about {
-    width: cals (100%-72px)/4;
+    width: cals ((100%-72px)/4);
 }
 
 .title-list {
@@ -242,7 +242,7 @@ address {
 
 .item-list-team {
 
-    width: cals (100%-72px)/4;
+    width: cals ((100%-72px)/4);
     border-radius: 0px 0px 4px 4px;
 }
 
@@ -294,7 +294,7 @@ address {
 }
 
 .item-portf {
-    width: cals (100%-72px)/3;
+    width: cals ((100%-48px)/3);
 }
 
 .list-portf {
