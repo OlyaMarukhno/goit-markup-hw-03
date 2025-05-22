@@ -116,7 +116,7 @@ address {
     color: #434455;
 }
 
-< !--sec1-->
+<!--sec1-->
 
 .hero-container {
     display: block;
@@ -165,7 +165,7 @@ address {
     background-color: #404bbf;
 }
 
-< !--sec2-->
+<!--sec2-->
 
 .about-container {
     display: inline-flex;
