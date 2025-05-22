@@ -116,8 +116,6 @@ address {
     color: #434455;
 }
 
-<!--sec1-->
-
 .hero-container {
     display: block;
     align-items: center;
@@ -164,8 +162,6 @@ address {
 .button-hero:focus {
     background-color: #404bbf;
 }
-
-<!--sec2-->
 
 .about-container {
     display: inline-flex;
@@ -219,8 +215,6 @@ address {
     letter-spacing: 0.02em;
     color: #434455;
 }
-
-<!--sec3-->
 
 .team {
     padding: 120px 0;
@@ -279,8 +273,6 @@ address {
     color: #434455;
 }
 
-<!--sec4-->
-
 .portf {
     padding: 120px 0;
     width: 100%;
@@ -335,7 +327,6 @@ address {
     color: #2e2f42;
 }
 
-<!--footer-->
 
 .page-footer {
     padding: 100px 0;
